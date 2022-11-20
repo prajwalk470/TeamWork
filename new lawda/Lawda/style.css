@@ -4,7 +4,6 @@
 .link:hover{
     color:black;
 }
-
 .dropdown{
     position:relative;
 }
@@ -13,11 +12,29 @@
     left: 0;
     top: calc(100% + .25rem);
     padding: .75rem;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
     opacity: 0;
     transform: translateY(-1px);
     transition: opacity 150ms ease-in-out,transform 150ms ease-in-out;
 }
 .dropdown > .link:focus + .dropdown-menu{
     opacity: 1;
+}
+.dropdown-menu a{
+    color:white;
+    background-color: black;
+    padding : 15px;
+    border: 3px solid grey;
+    font-family: cursive;
+    font-weight: 800;
+    font-size: 16px;
+    text-decoration: none;
+}
+.dropdown .link{
+    color: rgb(0, 0, 0);
+    background-image: radial-gradient(rgb(67, 222, 246),rgb(77, 247, 77));
+    padding : 15px;
+    border: 3px solid grey;
+    font-family: cursive;
+    font-weight: 800;
+    font-size: 16px;
 }
