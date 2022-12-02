@@ -1,0 +1,50 @@
+#colorchange{
+    background-image:linear-gradient(rgb(189, 249, 79),rgb(149, 237, 247)) ;
+    border: 0.3px solid black;
+    border-radius: 20px;
+    color:rgb(44, 18, 245)
+}
+body{
+    background-image: url('Lawda/bgc.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content1 h1{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+.content1 h4{
+    color:white;
+    text-align: center;
+    font-size: 2em;
+}
+.img1{
+    display:inline-block;
+    background-image: url('lawda/github.jpg');
+    opacity: 0.6;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-left: 150px;
+    width:40%;
+
+
+    text-align: center;
+    height:32em;
+}
+.con1{
+   font-size: 20px;
+    color: rgb(254, 254, 254);
+    display:block;
+    float: right;
+    margin-right: 150px;
+    width:40%;
+    text-align: center;
+    height:32em;
+}
+#ll{
+    color:rgb(0, 0, 0);
+   
+    font-family:cursive;
+}
