@@ -1,0 +1,97 @@
+*{
+  
+    margin:0;
+    padding:0;
+}
+
+.logo{
+ display: inline-block;
+ font-size: 30px;
+ margin:30px 114px;
+ font-weight: 900;
+ font-family: 'Metal Mania', cursive;
+
+}
+.logo a {
+    text-decoration: none;
+    list-style: none;
+    color:black;
+    font-family: 'Metal Mania', cursive;
+}
+
+.btn ul li{
+    padding: 5px;
+    font-family: 'Metal Mania', cursive;
+}
+img{
+    width:1302px;
+    margin-left:114px;
+}
+.btn ul li a {
+    text-decoration: none;
+    list-style: none;
+    margin:10px 60px;
+    color:black;
+    font-size: 25px;
+    font-family: 'Metal Mania', cursive;
+}
+.btn ul li a:hover{
+    font-size: 27px;
+    transition: 0.25s;
+    color:grey;
+    font-family: 'Metal Mania', cursive;
+}
+.btn ul {
+    margin-top: -66px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-right:43px;
+}
+.name ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.name ul li a{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+    margin:10px 40px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name ul li a:hover{
+    color:rgb(81, 146, 146);
+    transition:0.5s;
+}
+.name {
+    margin:30px 112px;
+}
+h3{
+    display:inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#email{
+    margin-left:153px;
+}
+#lbtn{
+    margin-left:15px;
+    padding-left: 10px;
+    text-align: center;
+    padding-right:10px;
+    border:3px solid grey;
+    font-size: 15px;
+    font-weight: 900;
+    opacity: 0.8;
+    cursor: pointer;
+}
+#lbtn:hover{
+    opacity:1;
+    color:black;
+    cursor: pointer;
+}
+#ship{
+    margin:0px;
+}
