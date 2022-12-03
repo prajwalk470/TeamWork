@@ -5,7 +5,7 @@
     color:rgb(44, 18, 245)
 }
 body{
-    background-image: url('Lawda/bgc.jpg') ;
+    background-image: url('bgc.jpg') ;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -21,7 +21,7 @@ body{
 }
 .img1{
     display:inline-block;
-    background-image: url('lawda/github.jpg');
+    background-image: url('github.jpg');
     opacity: 0.6;
     background-repeat:no-repeat;
     background-position: center;
