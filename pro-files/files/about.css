@@ -1,12 +1,12 @@
 #colorchange{
-    background-image:linear-gradient(rgb(189, 249, 79),rgb(149, 237, 247)) ;
-    border: 0.3px solid black;
-    border-radius: 20px;
-    color:rgb(44, 18, 245)
+    background-image:linear-gradient(rgb(189, 249, 79),rgb(227, 242, 244)) ;
+    border: 1.3px solid rgb(250, 240, 240);
+    border-radius: 15px;
+    color:rgb(101, 84, 233)
 }
 body{
     background-image: url('bgc.jpg') ;
-    background-repeat: no-repeat;
+     background-repeat: no-repeat; 
     background-size: cover;
 }
 .content1 h1{
@@ -31,7 +31,7 @@ body{
 
 
     text-align: center;
-    height:32em;
+    height:30em;
 }
 .con1{
    font-size: 20px;
